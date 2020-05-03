@@ -1,0 +1,98 @@
+*{
+
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		outline: none;
+}
+
+body{
+
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	background-position: bottom center;
+
+
+}
+
+
+.calc-container{
+	 width: 500px;
+	 height: 600px;
+	 background: white;
+	 margin:10rem auto;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-radius: 9px;
+
+		
+
+}
+
+.number{
+	cursor: pointer;
+}
+
+
+.output{
+	height: 100px;
+	text-align: right;
+	background: orange;
+	text-align: center;
+	
+
+}
+
+#output-number{
+	font-size: 40px;
+	padding-top: 3rem;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 3rem;
+}
+
+.operator, .number{
+	font-family: inherit;
+	font-size: 1.5rem;
+	border: none;
+	background-color: transparent;
+}
+
+.empty{
+	background: transparent;
+	border: none;
+}
+
+.operator:nth-of-type(4){
+
+	background: purple;
+	padding: 0.4rem 0.8rem;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	outline: none;
+	cursor: pointer;
+	color:white;
+}
+
+.divide{
+	background: rgb(161, 50, 50) !important;
+}
+.multiple{
+	background: rgb(37, 112, 83) !important;
+	transform: translateX(6px);
+}
+.minus{
+	background: rgb(19, 82, 119) !important;
+	transform: translateX(6px);
+	padding: 0.5rem 1.1rem !important;
+}
+
+.res{
+	background: red !important;
+	transform: translateX(7px);
+}
+
+.plus{
+	transform: translateX(5px);
+}
